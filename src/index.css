@@ -9,6 +9,7 @@
   font-family: font2;
   src: url(../fonts/Lausanne-500.woff2);
 }
+
 body {
-  background-color: rgb(49, 49, 49);
+  background-color: black;
 }
