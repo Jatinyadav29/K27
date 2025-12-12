@@ -2,10 +2,12 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Agence from "./pages/Agence";
 import Projects from "./pages/Project";
+import Navbar from "./components/Navigation/Navbar";
 
 const App = () => {
   return (
-    <div className="text-white">
+    <div>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/agence" element={<Agence />} />
